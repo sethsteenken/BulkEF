@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1</TargetFrameworks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <NoWarn>1701;1702;CS1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1</FileVersion>
+    <InformationalVersion>0.0.1</InformationalVersion>
+    <Authors>Seth Steenken</Authors>
+    <Product>BulkEF.SqlServer</Product>
+    <Description>BulkEF is a .NET Standard library that adds bulk operation services and extensions to Entity Framwork Core versions 3.1 and 5.</Description>
+    <Copyright>Copyright © Seth Steenken 2020</Copyright>
+    <Summary>BulkEF is a .NET Standard library that adds bulk operation services and extensions to Entity Framwork Core versions 3.1 and 5.</Summary>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Title>BulkEF.SqlServer</Title>
+    <PackageId>BulkEF.SqlServer</PackageId>
+    <PackageTags>EntityFrameworkCore Entity Framework .NET Core data access</PackageTags>
+    <PackageProjectUrl>https://github.com/sethsteenken/BulkEF</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RootNamespace>BulkEF.SqlServer</RootNamespace>
+    <AssemblyName>BulkEF.SqlServer</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- Include symbol files (*.pdb) in the built .nupkg -->
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
