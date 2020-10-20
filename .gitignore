@@ -1,0 +1,9 @@
+*.pdb
+bin/
+*.suo
+*/.vs
+/.vs
+obj/
+*.user
+.DS_Store
+
